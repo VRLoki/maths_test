@@ -13,9 +13,9 @@ int main(void)
    	double mod, arg;
    	c1.im = 2;
    	c1.re = 2;
-   	mod = Modulus(c1);
-   	arg = Argument(c1);
-   	DisplayComplexNumber(c1);
-    ComplexFromModArg(mod, arg, &c2);
-    DisplayComplexNumber(c2);
+   	mod = modulus(c1);
+   	arg = argument(c1);
+   	display_complex_number(c1);
+    complex_from_mod_arg(mod, arg, &c2);
+    display_complex_number(c2);
 }

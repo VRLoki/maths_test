@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-complex Conjugate(complex c)
+complex conjugate(complex c)
 {
 	c.im = -(c.im);
 	return (c);

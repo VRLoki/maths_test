@@ -14,8 +14,8 @@ int main(void)
     c1.im=1;
     c2.re=1;
     c2.im=2;
-    DisplayComplexNumber(c1);
-    DisplayComplexNumber(c2);
-    Addition(c1,c2,&c3);
-    DisplayComplexNumber(c3);
+    display_complex_number(c1);
+    display_complex_number(c2);
+    addition(c1,c2,&c3);
+    display_complex_number(c3);
 }

@@ -11,11 +11,10 @@ int main(void)
 {
 	complex c1;
 
-	c1.re = 1;
-	c1.im = 2;
-	c1 = Conjugate(c1);
-	DisplayComplexNumber(c1);
-	c1 = Conjugate(c1);
-	DisplayComplexNumber(c1);
+	c1.re = -3;
+	c1.im = -4;
+	display_complex_number(c1);
+	c1 = conjugate(c1);
+	display_complex_number(c1);
 	return (0);
 }

@@ -14,7 +14,7 @@ int main(void)
 
 	c1.re = 1;
 	c1.im = 2;
-	mod = Modulus(c1);
+	mod = modulus(c1);
 	printf("%f\n", mod);
 	return (0);
 }

@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-double Argument(complex c)
+double argument(complex c)
 {
 	double a;
 

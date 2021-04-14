@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-double Modulus(complex c)
+double modulus(complex c)
 {
 	double m;
 

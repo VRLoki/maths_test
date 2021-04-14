@@ -14,7 +14,7 @@ int main(void)
 
 	c1.re = 1;
 	c1.im = 2;
-	arg = Argument(c1);
+	arg = argument(c1);
 	printf("%f\n", arg);
 	return (0);
 }
