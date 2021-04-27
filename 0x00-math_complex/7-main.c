@@ -13,7 +13,7 @@ int main(void)
     c1.re=4;
     c1.im=3;
     c2.re=2;
-    c2.im=1;
+    c2.im=-1;
     display_complex_number(c1);
     display_complex_number(c2);
     division(c1,c2,&c3);

@@ -11,8 +11,8 @@ int main(void)
 {
    	complex c1, c2;
    	double mod, arg;
-   	c1.im = 2;
-   	c1.re = 2;
+   	c1.im = -2;
+   	c1.re = 1;
    	mod = modulus(c1);
    	arg = argument(c1);
    	display_complex_number(c1);
